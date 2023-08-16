@@ -1,0 +1,9 @@
+<start-code>
+write <function> isValidwith following arguments:'s' as a string<inside-body><assignment>
+set <assigned-variable> stack.stack <is-defined-as> <list>.This is an <empty> <list>.<assignment>
+set <assigned-variable> parenthesis.parenthesis <is-defined-as> <dict>.The <dict> contains following key and value pairs:<key>) <is-defined-as> <str>:<str> ")"<value>( <is-defined-as> <str>:<str> "("<key>] <is-defined-as> <str>:<str> "]"<value>[ <is-defined-as> <str>:<str> "["<key>} <is-defined-as> <str>:<str> "}"<value>{ <is-defined-as> <str>:<str> "{"<for-loop>
+iterate: for each element defined as<variable> 'char'over<variable> 's'<inside-body><if-statement>
+<if-left><variable> 'char'<is-in><if-right><str> "({["<inside-body>apply the <method> 'append' on 'stack'with the following <arguments>:argument-1<variable> 'char'<elif-statement>
+In the case that<if-statement>
+<if-left><variable> 'char'<is-in><if-right><str> ")}]"<inside-body><if-statement>
+<or><if-left><is-not-equal-to><if-right>the element with index:charfrom <iterable> 'parenthesis',<inside-body><function> returns Falseapply the <method> 'pop' on 'stack'<end-of-node-function>

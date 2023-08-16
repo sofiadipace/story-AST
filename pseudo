@@ -1,0 +1,16 @@
+(START OF CODE)write the function isValidwith following arguments:'s' as a string
+(ASSIGNMENT OF VARIABLE)
+set the variable stack.stack is defined as a list.This is an empty list.
+(ASSIGNMENT OF VARIABLE)
+set the variable parenthesis.parenthesis is defined as a dictionary.The dictionary contains following key and value pairs:key of the dictionary) is defined as a the string:the string ")"the value( is defined as a the string:the string "("key of the dictionary] is defined as a the string:the string "]"the value[ is defined as a the string:the string "["key of the dictionary} is defined as a the string:the string "}"the value{ is defined as a the string:the string "{",
+(FOR-LOOP)
+iterate: for each element defined asthe variable 'char'overthe variable 's',
+(START OF IF STATEMENT)
+ifthe variable 'char'is contained inthe string "({["apply the the method 'append' on 'stack'with the following arguments:argument-1the variable 'char',
+(ELIF STATEMENT)
+In the case that,
+(START OF IF STATEMENT)
+ifthe variable 'char'is contained inthe string ")}]",
+(START OF IF STATEMENT)
+orifis not equal tothe element with index:charfrom 'parenthesis',the function returns Falseapply the the method 'pop' on 'stack',
+(END OF FUNCTION)
