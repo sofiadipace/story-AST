@@ -12,6 +12,7 @@ python3 story_ast.py
 ```
 
 The file containing the story is `story`.
+
 In Terminal:
 ```
 cat story
