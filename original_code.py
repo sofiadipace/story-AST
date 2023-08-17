@@ -1,4 +1,4 @@
-def isValid( s: str) -> bool:
+def isValid(s: str) -> bool:
     stack = []
     parenthesis = {")": "(", "]": "[", "}": "{"}
     for char in s:
